@@ -577,8 +577,8 @@ def merged_defines(src, tar, index=None):
 
 if __name__ == "__main__":
 
-    path = 'modules/2019年10月-员工入离职通知汇总表模板.xls'
-    data_path = 'modules/2019年10月-员工入离职通知汇总表-高泽鸿.xls'
+    path = 'modules/xxx-moudles.xls'
+    data_path = 'modules/xxx.xls'
 
     mod = read_xls_mod(path)
     field_values = load_multi(mod, data_path,data_path,index='name')
